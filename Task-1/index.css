@@ -1,0 +1,288 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color: #FBF9F1;
+}
+.menu
+{
+width: 98.5%;
+color: white;
+background: #bd8334;
+height: 60px;
+padding: 10px 10px 0px 10px;
+  font-family: "Platypi", serif;
+    font-size: 20px;
+}
+
+.special{
+float: left;
+margin-right: 100px;
+margin-top: 10px;
+
+}
+.special1{
+float: left;
+margin-right: 40px;
+margin-top: 10px;
+
+}
+.video{
+	margin-top: 0px;
+}
+.Brands{
+	width: 100%;
+	height: 180px;
+	margin-bottom: 150px;
+	margin-top: 20px;
+}
+.Brands h1{
+margin-left: 20px;
+	color: #bd8334;
+	font-family: serif;
+	font-weight: normal;
+	font-size: 80px;
+	opacity: 0.1;
+	}
+
+.Brands h2{
+	margin-left: 20px;
+	color: #bd8334;
+	font-family: serif;
+	font-weight: normal;
+	font-size: 30px;
+	position: absolute;
+	left: 43%;
+	top: 790px;
+
+
+}
+.Brands img{
+	margin-left: 10px;
+	margin-top: 15px;
+	margin-right: 10px;
+	width: 180px;
+	transition: width 0.5s;
+}
+.Brands img:hover{
+ width: 200px;
+ transition: width 0.5s;
+}
+
+.hot{
+	width: 100%;
+	height: 100px;
+ 	position: absolute;
+
+}
+.hot h1{
+	margin-left: 20px;
+	color: #bd8334;
+	font-family: serif;
+	font-weight: normal;
+	font-size: 80px;
+	opacity: 0.1;
+
+}
+
+.hot h2{
+	margin-left: 20px;
+	color: #bd8334;
+	font-family: serif;
+	font-weight: normal;
+	font-size: 30px;
+	position: absolute;
+	left: 43%;
+	top: 35px;
+
+
+}
+
+.product{
+
+border: 1px solid #E5E1DA;
+width: 20%;
+height: 430px;
+margin-left: 30px;
+padding: 10px;
+float: left;
+margin-top: 10px;
+
+}
+.product img:hover{
+	width: 100%;
+	  transition: width 0.5s;
+	}
+.product img{
+	width: 95%;
+	  transition: width 0.5s;
+	}
+.product .name{
+	font-size: 17px;
+		font-family: serif;
+	font-weight: normal;
+
+}
+.product .cart{
+	width: 40%;
+	height: 50px;
+	background-color: black;
+	padding: 10px;
+	color: white;
+font-family: serif;
+	font-weight: normal;
+	font-size: 15px;
+
+}
+
+.treding{
+	width: 100%;
+	height: 180px;
+	margin-bottom: 100px;
+	position: relative;
+	top: 600px;
+
+}
+.treding h1{
+	margin-left: 20px;
+	color: #bd8334;
+	font-family: serif;
+	font-weight: normal;
+	font-size: 80px;
+	opacity: 0.1;
+}
+.treding h2{
+	margin-left: 20px;
+	color: #bd8334;
+	font-family: serif;
+	font-weight: normal;
+	font-size: 30px;
+	position: absolute;
+	left: 43%;
+	top: 35px;
+
+
+}
+.treding video{
+	margin-left: 20px;
+}
+.search
+{
+	width: 10%;
+	height: 25px;
+	border: 1px solid whitesmoke;
+	background-color: whitesmoke;
+	border-radius: 100px;
+	color: black;
+	font-size: 15px;
+	font-family: monospace;
+	padding: 5px;
+}
+
+.search-icons {
+    font-size: 36px; /* Change the size of the icons */
+    color: black;     /* Change the color of the icons */
+    vertical-align: middle; /* Align icons with text */
+    margin-right: 10px; /* Add some space between the icon and text */
+}
+
+.offer{
+	width: 20%;
+	height: 50px;
+	background-color: #B82C32;
+	color: white;
+	padding: 10px;
+	border-radius: 20px;
+}
+.footer{
+position: relative;
+width: 100%;
+color: white;
+background: #bd8334;
+height: 40px;
+top: 880px;
+padding-top: 20px;
+}
+.footer span{
+font-size: 20px;
+letter-spacing: 8px;
+margin-left: 120px;
+
+}
+
+
+.Wardrobe h1{
+	margin-left: 20px;
+	color: #bd8334;
+	font-family: serif;
+	font-weight: normal;
+	font-size: 80px;
+	opacity: 0.1;
+}
+.Wardrobe h2{
+	margin-left: 20px;
+	color: #bd8334;
+	font-family: serif;
+	font-weight: normal;
+	font-size: 30px;
+	position: absolute;
+	left: 42%;
+	top: 272%;
+
+
+}
+.treding video{
+	margin-left: 20px;
+}
+
+ul[type="none"] {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.special {
+    margin-right: 80px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.special1 {
+    margin-left: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search-input {
+    width: 150px;
+    padding: 5px 10px;
+    border-radius: 15px 0 0 15px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    transition: width 0.3s ease;
+}
+
+
+
+.search-button {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 0 15px 15px 0;
+    color: white;
+    padding: px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
